@@ -16,10 +16,10 @@ export default function BlogsSection() {
             tourism is making travel better for everyone.
           </p>
         </div>
-        <div className="flex items-center justify-center gap-12 mt-12">
+        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-12 mt-12">
           {blogsEntries.map((entry) => (
-            <div key={entry.id} className="rounded-lg shadow-lg">
-              <div className="h-64 bg-slate-400 rounded-t-lg">
+            <div key={entry.id} className=" w-full md:w-[28vw] rounded-lg shadow-lg">
+              <div className="h-64  bg-slate-400 rounded-t-lg">
                 <CloudinaryImage
                   src={entry.imgSrc}
                   height={400}

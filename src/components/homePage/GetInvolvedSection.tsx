@@ -5,8 +5,8 @@ export default function GetInvolvedSection() {
   return (
     <>
       <section className="container mx-auto my-40 px-4">
-        <div className="flex items-center justify-center gap-x-24 gap-y-12">
-          <div className="bg-slate-400 rounded-lg h-96 w-[40vw]">
+        <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-12">
+          <div className="bg-slate-400 rounded-lg h-96 w-full md:w-[40vw]">
             <CloudinaryImage
                 src="hands_get_inlvoved_koazpu"
                 height={400}
@@ -15,7 +15,7 @@ export default function GetInvolvedSection() {
                 className="object-cover w-full h-full rounded-lg"
             />
           </div>
-          <div className="flex flex-col space-y-8 w-[40vw]">
+          <div className="flex flex-col space-y-8 w-full md:w-[40vw]">
             <h2 className="font-thin text-slate-400">Get Involved</h2>
             <p className="font-medium text-3xl">
               Breaking Barriers, Creating Inclusive Travel Experiences

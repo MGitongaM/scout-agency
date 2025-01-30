@@ -8,7 +8,7 @@ export default function FooterSection() {
   return (
     <>
       <section className=" bg-green-700 text-white pb-20">
-        <div className="container mx-auto flex gap-x-12 gap-y-8 items-center justify-evenly px-4  ">
+        <div className="container mx-auto flex flex-wrap gap-x-12 gap-y-8 items-center justify-evenly px-4 pb-10 ">
           <div className="">
             <CloudinaryImage
                 src="scout_logo_b1mzxq"
@@ -34,7 +34,7 @@ export default function FooterSection() {
 
         <div className="flex items-center gap-4 bg-green-600 rounded-lg px-4 py-6 max-w-5xl mx-auto">
           <p className="font-semibold w-64">Newsletter Sign Up</p>
-          <div className="flex items-center justify-between px-4 py-6 rounded-lg bg-white w-full">
+          <div className="flex flex-wrap items-center gap-2 justify-between px-4 py-6 rounded-lg bg-white w-full">
             <input
               type="email"
               className="outline w-10/12 rounded-lg py-3 px-2 text-black "
@@ -43,7 +43,7 @@ export default function FooterSection() {
           </div>
         </div>
         <Separator className="max-w-5xl mx-auto mt-10" />
-        <div className="flex items-center justify-between px-4 py-6 max-w-5xl mx-auto">
+        <div className="flex flex-wrap  gap-12 items-center justify-between px-4 py-6 max-w-5xl mx-auto">
           <div className="flex items-center justify-center gap-4">
             {socialEntries.map((entry) => (
               <div key={entry.id} className="c">
