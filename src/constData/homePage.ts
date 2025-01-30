@@ -43,3 +43,27 @@ export const blogsEntries = [
       "This includes both visible and invisible disabilities, such as physical disabilities, intellectual disabilities, and mental health conditions. ",
   },
 ];
+
+export const ourWorkEntries = [
+  {
+    id: 1,
+    heading: "Zurura initiative",
+    highlight:
+      "This initiative aims to provide children from special needs and  inclusive schools in Kenya with enriching and inclusive experiences through educational and  recreational trips",
+    link: "",
+  },
+  {
+    id: 2,
+    heading: "Accessible Tourism in Kenya",
+    highlight:
+      "Accessible tourism ensures equal travel experiences for all, adapting accommodations, transportation, attractions, and services in Kenya to meet diverse needs, fostering inclusion and growth.",
+    link: "",
+  },
+  {
+    id: 3,
+    heading: "Research & training",
+    highlight:
+      "We conduct a comprehensive accessibility audit of our current tourism offerings, including but not limited to hotels, restaurants, transportation options, and popular attractions.",
+    link: "",
+  },
+];
