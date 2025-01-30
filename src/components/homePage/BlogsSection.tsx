@@ -18,7 +18,7 @@ export default function BlogsSection() {
         </div>
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-12 mt-12">
           {blogsEntries.map((entry) => (
-            <div key={entry.id} className=" w-full md:w-[28vw] rounded-lg shadow-lg">
+            <div key={entry.id} className=" w-full md:w-[26vw] rounded-lg shadow-lg">
               <div className="h-64  bg-slate-400 rounded-t-lg">
                 <CloudinaryImage
                   src={entry.imgSrc}

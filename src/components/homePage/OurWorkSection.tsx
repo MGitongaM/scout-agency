@@ -40,7 +40,7 @@ export default function OurWorkSection() {
                 entry.id == 1 && "bg-green-800/50",
                 entry.id == 2 && "bg-green-950/50",
                 entry.id == 3 && "bg-green-800/50",
-                "rounded-lg space-y-4 px-8 lg:px-16 py-12  w-full md:w-[28vw]"
+                "rounded-lg space-y-4 px-8 lg:px-16 py-12  w-full md:w-[26vw]"
               )}
             >
               <p className="font-semibold">{entry.heading}</p>
