@@ -1,4 +1,3 @@
-
 import { Button } from "../ui/button";
 import clsx from "clsx";
 
@@ -26,8 +25,8 @@ export default function TestimonialSection() {
                   key={index}
                   size="icon"
                   className={clsx(
-                      " bg-transparent  size-4 rounded-full",
-                      index == 1 && "bg-green-800 border-green-600",
+                    " bg-transparent  size-4 rounded-full",
+                    index == 1 && "bg-green-800 border-green-600"
                   )}
                 ></Button>
               ))}

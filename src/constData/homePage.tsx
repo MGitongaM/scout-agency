@@ -1,3 +1,5 @@
+import { FacebookIcon, Linkedin, X } from "lucide-react";
+
 export const ourStorySectionEntries = [
   {
     id: 1,
@@ -65,5 +67,92 @@ export const ourWorkEntries = [
     highlight:
       "We conduct a comprehensive accessibility audit of our current tourism offerings, including but not limited to hotels, restaurants, transportation options, and popular attractions.",
     link: "",
+  },
+];
+
+export const footerEntries = [
+  {
+    id: 1,
+    title: "About Us",
+    entries: [
+      {
+        id: 1,
+        heading: "Our Vision",
+        link: "",
+      },
+      {
+        id: 2,
+        heading: "Our Mission",
+        link: "",
+      },
+      {
+        id: 3,
+        heading: "Our Team",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Our Work",
+    entries: [
+      {
+        id: 1,
+        heading: "Zurura initiative",
+        link: "",
+      },
+      {
+        id: 2,
+        heading: "Accessible Tourism ",
+        link: "",
+      },
+      {
+        id: 3,
+        heading: "Research & training",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Get Involved",
+    entries: [
+      {
+        id: 1,
+        heading: "Donate",
+        link: "",
+      },
+      {
+        id: 2,
+        heading: "Contact Us",
+        link: "",
+      },
+      {
+        id: 3,
+        heading: "Blogs & Stories ",
+        link: "",
+      },
+    ],
+  },
+];
+
+export const socialEntries = [
+  {
+    id: 1,
+    Platform: "X",
+    Link: "",
+    icon:<X size={20}/>
+  },
+  {
+    id: 2,
+    Platform: "LinkedIn",
+    Link: "",
+    icon:<Linkedin size={20}/>
+  },
+  {
+    id: 3,
+    Platform: "Facebook",
+    Link: "",
+    icon:<FacebookIcon size={20}/>
   },
 ];
