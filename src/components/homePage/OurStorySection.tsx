@@ -1,4 +1,4 @@
-import { ourStorySectionEntries } from "@/constData/ourStory";
+import { ourStorySectionEntries } from "@/constData/homePage";
 import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
@@ -29,7 +29,7 @@ export default function OurStorySection() {
 
           <div className="bg-amber-900 rounded-lg">
             <div className="flex flex-col justify-start space-y-4 text-white px-4 py-8">
-              <h2 className="font-thin ">Our story</h2>
+              <h2 className="font-thin text-slate-400">Our story</h2>
               <div className="border rounded-lg w-6/12 space-y-4">
                 <h3 className="font-medium text-lg mb-8">
                   Accessible Tourism: A Path to Inclusion
