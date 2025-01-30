@@ -1,6 +1,7 @@
 import { blogsEntries } from "@/constData/homePage";
 import React from "react";
 import { Button } from "../ui/button";
+import CloudinaryImage from "../CloudinaryImage";
 
 export default function BlogsSection() {
   return (
@@ -16,20 +17,28 @@ export default function BlogsSection() {
           </p>
         </div>
         <div className="flex items-center justify-center gap-12 mt-12">
-            {blogsEntries.map((entry)=>(
-                <div key={entry.id} className="rounded-lg shadow-lg">
-                    <div className="h-48 bg-slate-400 rounded-t-lg"></div>
-                    <div className="space-y-4 px-4 py-6">
-                        <p className="font-semibold">{entry.heading}</p>
-                        <p className="c">{entry.excerpt}</p>
-                    </div>
-                </div>
-            ))}
+          {blogsEntries.map((entry) => (
+            <div key={entry.id} className="rounded-lg shadow-lg">
+              <div className="h-64 bg-slate-400 rounded-t-lg">
+                <CloudinaryImage
+                  src={entry.imgSrc}
+                  height={400}
+                  width={400}
+                  alt="scout group agency logo"
+                  className="object-cover w-full h-full rounded-lg"
+                />
+              </div>
+              <div className="space-y-4 px-4 py-6">
+                <p className="font-semibold">{entry.heading}</p>
+                <p className="c">{entry.excerpt}</p>
+              </div>
+            </div>
+          ))}
         </div>
         <div className="grid place-content-center mt-8">
-             <Button size='sm' className="bg-green-600 hover:bg-green-700">
-                    View More Blogs & Articles
-                </Button>
+          <Button size="sm" className="bg-green-600 hover:bg-green-700">
+            View More Blogs & Articles
+          </Button>
         </div>
       </section>
     </>

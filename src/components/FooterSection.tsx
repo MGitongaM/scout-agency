@@ -2,13 +2,22 @@ import { footerEntries, socialEntries } from "@/constData/homePage";
 import Link from "next/link";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
+import CloudinaryImage from "./CloudinaryImage";
 
 export default function FooterSection() {
   return (
     <>
       <section className=" bg-green-700 text-white pb-20">
-        <div className="container mx-auto flex gap-x-12 gap-y-8 items-start justify-evenly px-4 py-20 ">
-          <div className="bg-slate-400 rounded-lg h-64 w-24"></div>
+        <div className="container mx-auto flex gap-x-12 gap-y-8 items-center justify-evenly px-4  ">
+          <div className="">
+            <CloudinaryImage
+                src="scout_logo_b1mzxq"
+                height={400}
+                width={400}
+                alt="scout group agency logo"
+                className="object-contain size-56"
+            />
+          </div>
           {footerEntries.map((entry) => (
             <div key={entry.id} className="c">
               <p className="mb-4 font-semibold">{entry.title}</p>

@@ -29,18 +29,21 @@ export const blogsEntries = [
   {
     id: 1,
     heading: "15% of Africans have a disability",
+    imgSrc:"blog1_image_gofw9j",
     excerpt:
       "This includes both visible and invisible disabilities, such as physical disabilities, intellectual disabilities, and mental health conditions. ",
   },
   {
     id: 2,
     heading: "15% of Africans have a disability",
+    imgSrc:"blog2_image_vqr38w",
     excerpt:
       "This includes both visible and invisible disabilities, such as physical disabilities, intellectual disabilities, and mental health conditions. ",
   },
   {
     id: 3,
     heading: "15% of Africans have a disability",
+    imgSrc:"blog3_image_ce60ps",
     excerpt:
       "This includes both visible and invisible disabilities, such as physical disabilities, intellectual disabilities, and mental health conditions. ",
   },

@@ -12,7 +12,6 @@ export default function HeroSection() {
                 <Button size='lg' className="bg-green-600 hover:bg-green-700">
                     Get Involved
                 </Button>
-
             </div>
             </div>
         </section>
