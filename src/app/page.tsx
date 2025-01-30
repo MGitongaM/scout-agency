@@ -3,6 +3,7 @@ import GetInvolvedSection from "@/components/homePage/GetInvolvedSection";
 import HeroSection from "@/components/homePage/HeroSection";
 import OurStorySection from "@/components/homePage/OurStorySection";
 import OurWorkSection from "@/components/homePage/OurWorkSection";
+import TestimonialSection from "@/components/homePage/TestimonialSection";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <BlogsSection/>
       <OurWorkSection/>
       <GetInvolvedSection/>
+      <TestimonialSection/>
     </>
   );
 }
