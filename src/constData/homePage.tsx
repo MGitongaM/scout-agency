@@ -70,6 +70,57 @@ export const ourWorkEntries = [
   },
 ];
 
+export const navigationEntries=[
+  {
+    id:1,
+    title:"Home",
+    link:"",
+    entries:[
+      {
+        id: 1,
+        heading: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id:2,
+    title:"About Us",
+    link:"",
+    entries:[
+      {
+        id: 1,
+        heading: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id:3,
+    title:"Our Work",
+    link:"",
+    entries:[
+      {
+        id: 1,
+        heading: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id:4,
+    title:"Get Involved",
+    link:"",
+    entries:[
+      {
+        id: 1,
+        heading: "",
+        link: "",
+      },
+    ],
+  },
+]
+
 export const footerEntries = [
   {
     id: 1,
