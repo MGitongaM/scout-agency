@@ -1,4 +1,5 @@
 import BlogsSection from "@/components/homePage/BlogsSection";
+import GetInvolvedSection from "@/components/homePage/GetInvolvedSection";
 import HeroSection from "@/components/homePage/HeroSection";
 import OurStorySection from "@/components/homePage/OurStorySection";
 import OurWorkSection from "@/components/homePage/OurWorkSection";
@@ -11,6 +12,7 @@ export default function Home() {
       <OurStorySection/>
       <BlogsSection/>
       <OurWorkSection/>
+      <GetInvolvedSection/>
     </>
   );
 }
