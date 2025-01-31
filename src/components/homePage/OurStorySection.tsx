@@ -2,13 +2,14 @@ import { ourStorySectionEntries } from "@/constData/homePage";
 import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
+import CloudinaryImage from "../CloudinaryImage";
 
 export default function OurStorySection() {
   return (
     <>
-      <section className="max-w-7xl mx-auto">
-        <div className="bg-white rounded-lg px-4 mx-2 -mt-20">
-          <div className="flex flex-wrap md:flex-nowrap  w-full justify-center gap-8">
+      <section className="max-w-6xl mx-auto  ">
+        <div className="bg-white relative rounded-lg shadow-lg min-h-[80vh] px-4 mx-2  -mt-20">
+          <div className=" flex flex-wrap md:flex-nowrap  w-full justify-center gap-12">
             {ourStorySectionEntries.map((entry) => (
               <div key={entry.id} className="">
                 <div className="flex min-h-20 gap-2 items-center">
@@ -25,8 +26,14 @@ export default function OurStorySection() {
               </div>
             ))}
           </div>
-
-          <div className="bg-amber-950 rounded-lg">
+          <CloudinaryImage
+            src="home_our_story_rx1s4r"
+            height={900}
+            width={1200}
+            alt="scout group agency home hero img"
+            className="object-contain w-full px-4 pb-24 h-full absolute top-20 left-0 "
+          />
+          <div className="absolute  min-h-[60vh] rounded-lg">
             <div className="flex flex-col justify-start space-y-4 text-white px-4 py-8">
               <h2 className="font-thin text-slate-400">Our story</h2>
               <div className="border rounded-lg w-full md:w-6/12 space-y-4 px-4 py-6">
