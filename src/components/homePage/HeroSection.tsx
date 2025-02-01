@@ -21,7 +21,7 @@ export default function HeroSection() {
             <p className="c">
               Because everyone should have access to great travel experiences
             </p>
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-xl">
+            <Button size="lg" className="bg-sgaGreen1 hover:bg-green-700 text-xl">
               Get Involved
             </Button>
           </div>

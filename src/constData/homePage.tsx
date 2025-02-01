@@ -17,7 +17,7 @@ export const ourStorySectionEntries = [
   },
   {
     id: 3,
-    figure: 1.6,
+    figure: 15,
     symbol: "%",
     color: "text-green-700",
     details:

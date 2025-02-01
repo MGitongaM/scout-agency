@@ -17,7 +17,7 @@ export default function TestimonialSection() {
                     className="object-cover w-full h-full rounded-xl  "
                 />
             </div>
-            <div className="bg-green-800 rounded-lg size-96"></div>
+            <div className="bg-sgaGreen4 rounded-lg size-96"></div>
           </div>
           <div className="flex flex-col space-y-8 w-full md:w-[30vw]">
             <p className="font-thin text-slate-400"></p>
@@ -35,7 +35,7 @@ export default function TestimonialSection() {
                   size="icon"
                   className={clsx(
                     " bg-transparent  size-4 rounded-full",
-                    index == 1 && "bg-green-800 border-green-600"
+                    index == 1 && "bg-sgaGreen4 border-green-600"
                   )}
                 ></Button>
               ))}

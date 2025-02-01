@@ -36,7 +36,7 @@ export default function NavigationSection() {
                 ))}
               </div>
               <NavigationMenuItem>
-                <Button size="lg" className="bg-green-600 hover:bg-green-700">
+                <Button size="lg" className="bg-sgaGreen1 hover:bg-green-700">
                   Donate
                 </Button>
               </NavigationMenuItem>
@@ -56,7 +56,7 @@ export default function NavigationSection() {
                   ))}
                 </div>
                 <NavigationMenuItem>
-                  <Button size="lg" className="bg-green-600 hover:bg-green-700">
+                  <Button size="lg" className="bg-sgaGreen1 hover:bg-green-700">
                     Donate
                   </Button>
                 </NavigationMenuItem>

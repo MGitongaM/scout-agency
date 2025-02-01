@@ -7,7 +7,7 @@ import CloudinaryImage from "./CloudinaryImage";
 export default function FooterSection() {
   return (
     <>
-      <section className=" bg-green-700 text-white pb-20">
+      <section className="bg-sgaGreen4 text-white pb-20">
         <div className="container mx-auto flex flex-wrap gap-x-12 gap-y-8 items-center justify-evenly px-4 pb-10 ">
           <div className="">
             <CloudinaryImage
@@ -20,10 +20,10 @@ export default function FooterSection() {
           </div>
           {footerEntries.map((entry) => (
             <div key={entry.id} className="c">
-              <p className="mb-4 font-semibold">{entry.title}</p>
+              <p className="mb-6 font-semibold">{entry.title}</p>
               {entry.entries.map((subEntry) => (
-                <div key={subEntry.id}>
-                  <Link href={subEntry.link} className="py-1">
+                <div key={subEntry.id} className="py-1">
+                  <Link href={subEntry.link} >
                     {subEntry.heading}
                   </Link>
                 </div>
@@ -32,11 +32,12 @@ export default function FooterSection() {
           ))}
         </div>
 
-        <div className="flex items-center gap-4 bg-green-600 rounded-lg px-4 py-6 max-w-5xl mx-auto">
+        <div className="flex items-center gap-4 bg-sgaGreen3 rounded-lg px-4 py-6 max-w-5xl mx-auto">
           <p className="font-semibold w-64">Newsletter Sign Up</p>
           <div className="flex flex-wrap items-center gap-2 justify-between px-4 py-6 rounded-lg bg-white w-full">
             <input
               type="email"
+              placeholder="Enter your email here..."
               className="outline w-10/12 rounded-lg py-3 px-2 text-black "
             />
             <Button className="bg-red-500 font-semibold">Submit</Button>
