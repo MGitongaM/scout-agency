@@ -6,7 +6,7 @@ import CloudinaryImage from "../CloudinaryImage";
 export default function BlogsSection() {
   return (
     <>
-      <section className="container mx-auto my-40 px-4">
+      <section className="container mx-auto my-20 px-4">
         <div className="text-center max-w-xl mx-auto">
           <h2 className="font-thin my-4 text-slate-400">Blogs and Articles</h2>
           <p className="c">
