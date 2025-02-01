@@ -3,6 +3,7 @@ import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
 import CloudinaryImage from "../CloudinaryImage";
+import clsx from "clsx";
 
 export default function OurStorySection() {
   return (
@@ -13,7 +14,14 @@ export default function OurStorySection() {
             {ourStorySectionEntries.map((entry) => (
               <div key={entry.id} className="">
                 <div className="flex min-h-20 gap-2 items-center">
-                  <p className={cn("font-extrabold text-4xl", entry.color)}>
+                  <p
+                    className={clsx(
+                      "font-bold text-4xl",
+                      entry.id == 1 && "text-amber-400",
+                      entry.id == 2 && "text-pink-400",
+                      entry.id == 3 && "text-green-700"
+                    )}
+                  >
                     {entry.figure}
                     <span className="">{entry.symbol}</span>
                   </p>
