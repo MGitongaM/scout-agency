@@ -1,0 +1,33 @@
+import CloudinaryImage from "../CloudinaryImage";
+
+export default function AboutUsSection() {
+  return (
+    <section className="h-full">
+      <div className=" bg-green-600 flex justify-between items-center gap-12">
+        <div className="w-6/12  space-y-6 pl-40">
+          <h2 className="text-2xl font-thin text-stone-200">About Us</h2>
+          <p className=" leading-8">
+            Our organization is dedicated to redefining tourism by promoting
+            accessibility and inclusivity for everyone. We work with
+            policymakers, industry leaders, and communities to create travel
+            experiences that cater to diverse abilities. Through advocacy,
+            training, and innovation, we strive to break barriers in the tourism
+            and hospitality sectors, ensuring equity and dignity for all
+            travelers. With a commitment to sustainability and collaboration, we
+            aim to transform the tourism landscape into a model of inclusivity,
+            where every journey is enriching and accessible.
+          </p>
+        </div>
+        <div className="c">
+          <CloudinaryImage
+            src="aboutUsSection_Image_mndaho"
+            height={800}
+            width={800}
+            alt="scout agency about us section image"
+            className="object-cover h-full w-full"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
