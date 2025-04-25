@@ -7,7 +7,7 @@ import CloudinaryImage from "./CloudinaryImage";
 export default function FooterSection() {
   return (
     <>
-      <section className="bg-sgaGreen4 text-white pb-20">
+      <section className="bg-green-800 text-white pb-20">
         <div className="container mx-auto flex flex-wrap gap-x-12 gap-y-8 items-center justify-evenly px-4 pb-10 ">
           <div className="">
             <CloudinaryImage
