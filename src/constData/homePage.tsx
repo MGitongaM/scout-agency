@@ -77,7 +77,7 @@ export const navigationEntries=[
   {
     id:1,
     title:"Home",
-    link:"",
+    link:"/",
     entries:[
       {
         id: 1,
@@ -89,7 +89,7 @@ export const navigationEntries=[
   {
     id:2,
     title:"About Us",
-    link:"",
+    link:"/about-us",
     entries:[
       {
         id: 1,
