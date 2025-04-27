@@ -101,7 +101,7 @@ export const navigationEntries=[
   {
     id:3,
     title:"Our Work",
-    link:"",
+    link:"/zurura-initiative",
     entries:[
       {
         id: 1,
