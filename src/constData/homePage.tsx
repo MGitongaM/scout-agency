@@ -113,7 +113,7 @@ export const navigationEntries=[
   {
     id:4,
     title:"Get Involved",
-    link:"",
+    link:"/get-involved",
     entries:[
       {
         id: 1,
