@@ -1,29 +1,25 @@
-import CloudinaryImage from "../CloudinaryImage";
 import { Button } from "../ui/button";
 
 export default function HeroSection() {
   return (
     <>
-      <section className=" h-[95vh]">
-        <div className="grid grid-cols-12 items-end relative h-full px-4">
-          <CloudinaryImage
-            src="scout_home_hero_pe8hf5"
-            height={900}
-            width={1200}
-            alt="scout group agency home hero img"
-            className="object-cover w-full h-full absolute top-0 left-0 -z-30"
-          />
-          <div className="bg-slate-900/60 h-[95vh] w-screen absolute top-0 left-0 -z-30"></div>
-          <div className=" absolute top-52 md:top-72 left-0 -z-20 col-start-2 col-end-11 md:col-start-7 md:col-end-12 lg:col-start-8 lg:col-end-13 pb-96 space-y-4 text-white">
-            <h1 className="font-semibold text-3xl md:text-4xl">
-              Opening Doors to Inclusive Journeys
-            </h1>
-            <p className="c">
-              Because everyone should have access to great travel experiences
-            </p>
-            <Button size="lg" className="bg-sgaGreen1 hover:bg-green-700 text-xl">
-              Get Involved
-            </Button>
+      <section className="min-h-[90vh] bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1738216646/scout_home_hero_pe8hf5.png')] bg-cover bg-center">
+        <div className="min-h-[90vh] bg-black/60 backdrop-blur-lg">
+          <div className="container mx-auto px-4 py-10">
+            <div className="min-h-[90vh]  flex  justify-end items-center gap-4 ">
+              <div className="max-w-xl space-y-6 text-slate-100">
+                <h1 className="text-5xl font-bold">
+                  Opening Doors to Inclusive Journeys
+                </h1>
+                <p className="text-2xl leading-8">
+                  Because everyone should have access to great travel
+                  experiences
+                </p>
+                <Button className="text-xl bg-lime-500 hover:bg-green-500 hover:scale-110">
+                  Get Involved
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </section>

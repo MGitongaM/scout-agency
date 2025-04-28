@@ -2,8 +2,8 @@ import CloudinaryImage from "../CloudinaryImage";
 
 export default function OurWordSection() {
   return (
-    <section className="h-full ">
-      <div className="max-w-7xl mx-auto px-4 py-20 bg-slate-100 text-black rounded-lg ">
+    <section className=" ">
+      <div className="min0-h-[40vh] relative max-w-7xl mx-auto px-4 py-20 bg-slate-100 text-black rounded-lg -mt-36 ">
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <h2 className="text-4xl">You Have Our Word and So Much More</h2>
           <p className="leading-8">

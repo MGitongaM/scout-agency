@@ -13,7 +13,7 @@ import { Menu } from "lucide-react";
 export default function NavigationSection() {
   return (
     <>
-      <nav className="bg-black/95 backdrop-blur-lg text-white w-full px-4  z-10">
+      <nav className=" bg-black backdrop-blur-xl text-white w-full px-4  z-30">
         <NavigationMenu className="">
           <NavigationMenuList className="w-screen flex justify-between md:justify-around px-8">
             <NavigationMenuItem>
