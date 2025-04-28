@@ -6,8 +6,8 @@ export default function TeamSection() {
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-20">
-        <div className="flex justify-center items-start gap-12">
-          <div className="w-4/12">
+        <div className="flex flex-wrap md:flex-nowrap justify-center items-start gap-12">
+          <div className="w-full md:w-6/12 lg:w-4/12">
             <div className="min-h-96 w-11/12 rounded-lg bg-green-700"></div>
             <CloudinaryImage
               src="Joanne_Founder_Image_a7sawq"
@@ -17,7 +17,7 @@ export default function TeamSection() {
               className="object-cover h-full w-full rounded-lg -mt-80 pl-6"
             />
           </div>
-          <div className="w-4/12">
+          <div className="w-full md:w-6/12 lg:w-4/12">
             <h2 className="text-2xl font-thin text-stone-400 mt-12 mb-12">The Team</h2>
             <div className="space-y-4">
                 <h3 className="text-4xl font-bold 0">Joanne Ndirangu</h3>

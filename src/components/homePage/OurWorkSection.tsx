@@ -7,7 +7,7 @@ export default function OurWorkSection() {
   return (
     <>
       <section className="container mx-auto my-40 px-4">
-        <div className="flex md:flex-nowrap items-center justify-center gap-8">
+        <div className="flex md:flex-nowrap items-center justify-center gap-2 md:gap-8">
           {/* <div className="h-[40vh] w-full bg-green-300 rounded-lg px-8 py-12 space-y-4"> */}
           <div className="h-[40vh] w-full bg-lime-300 rounded-lg px-8 py-12 space-y-4">
             <h2 className="text-slate-400 font-thin">Our Work</h2>
@@ -33,7 +33,7 @@ export default function OurWorkSection() {
             />
           </div>
         </div>
-        <div className="flex flex-wrap md  justify-between gap-x-4 gap-y-8 mt-8 text-zinc-100 ">
+        <div className="flex flex-wrap md  justify-center gap-x-8 gap-y-8 mt-8 text-zinc-100 ">
           {ourWorkEntries.map((entry) => (
             <div
               key={entry.id}
@@ -41,7 +41,7 @@ export default function OurWorkSection() {
                 entry.id == 1 && "bg-green-900",
                 entry.id == 2 && "bg-green-950",
                 entry.id == 3 && "bg-green-900",
-                "rounded-lg space-y-4 px-8 lg:px-16 py-12 flex flex-col justify-between w-full md:w-[28vw]"
+                "rounded-lg space-y-4 px-8 lg:px-16 py-12 flex flex-col justify-between w-full md:w-[30vw]"
               )}
             >
               <p className="font-semibold">{entry.heading}</p>

@@ -5,8 +5,8 @@ export default function InvolvedSection() {
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-20">
-        <div className="flex justify-evenly items-start gap-12">
-          <div className="w-4/12 space-y-6">
+        <div className="flex flex-wrap-reverse md:flex-nowrap justify-evenly items-start gap-12">
+          <div className="w-full lg:w-4/12 space-y-6">
             <h2 className="text-2xl font-thin text-stone-400">Get Involved</h2>
             <h3 className="text-4xl font-semibold ">
               Breaking Barriers, Creating Inclusive Travel Experiences
@@ -29,7 +29,7 @@ export default function InvolvedSection() {
               Take Action...
             </Button>
           </div>
-          <div className="w-5/12">
+          <div className="w-full lg:w-5/12">
             <CloudinaryImage
               src="getInvolved_Image_yzdyqo"
               height={800}

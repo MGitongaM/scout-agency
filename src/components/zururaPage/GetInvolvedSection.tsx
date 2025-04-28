@@ -5,8 +5,8 @@ export default function GetInvolvedSection() {
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-20">
-        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-6">
-          <div className="w-5/12 space-y-6">
+        <div className="flex flex-wrap-reverse md:flex-nowrap justify-evenly items-center gap-6">
+          <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h2 className="text-xl font-thin text-stone-400">Get Involved</h2>
             <h3 className="text-4xl  ">
               Transforming Lives, One Journey at a Time
@@ -29,7 +29,7 @@ export default function GetInvolvedSection() {
               Take Action...
             </Button>
           </div>
-          <div className="w-4/12">
+          <div className="w-full md:w-6/12 lg:w-4/12">
             <CloudinaryImage
               src="zurura-initiative_GetInvolved_Image_dqlk8d"
               height={800}

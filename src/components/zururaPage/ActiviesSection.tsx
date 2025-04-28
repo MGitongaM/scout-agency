@@ -19,7 +19,7 @@ export default function ActiviesSection() {
               </p>
             </div>
             <div className="flex flex-wrap justify-evenly items-center gap-6">
-              <div className="w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
+              <div className="w-ful lg:w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
                 <CloudinaryImage
                   src="park_hb0gdq"
                   height={800}
@@ -33,7 +33,7 @@ export default function ActiviesSection() {
                   more
                 </p>
               </div>
-              <div className="w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
+              <div className="w-ful lg:w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
                 <CloudinaryImage
                   src="globe_ppdrc9"
                   height={800}
@@ -47,7 +47,7 @@ export default function ActiviesSection() {
                   sites{" "}
                 </p>
               </div>
-              <div className="w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
+              <div className="w-ful lg:w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
                 <CloudinaryImage
                   src="tour-guide_f5oyev"
                   height={800}
@@ -58,7 +58,7 @@ export default function ActiviesSection() {
                 <p className="font-bold">🔬 Educational Tours</p>
                 <p>Science centers, botanical gardens, and more </p>
               </div>
-              <div className="w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
+              <div className="w-ful lg:w-5/12 text-center bg-lime-800/85 rounded-lg px-8 py-6">
                 <CloudinaryImage
                   src="natural-park_u7yad1"
                   height={800}

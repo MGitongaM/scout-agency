@@ -3,8 +3,8 @@ import CloudinaryImage from "../CloudinaryImage";
 export default function AboutSection() {
   return (
     <section className="h-full">
-      <div className="flex justify-evenly items-center gap-12 px-4 py-20">
-        <div className="w-4/12">
+      <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-12 px-4 py-20">
+        <div className="w-full md:w-4/12">
           <div className="min-h-96 w-11/12 rounded-lg bg-green-300"></div>
           <CloudinaryImage
             src="zurura-initiative_About_Image_hckw5w"
@@ -14,7 +14,7 @@ export default function AboutSection() {
             className="object-cover h-full w-full rounded-lg -mt-80 pl-6"
           />
         </div>
-        <div className="w-4/12 space-y-6">
+        <div className="w-full md:w-4/12 space-y-6">
           <h2 className="text-4xl font thin"> About the Zurura initiative</h2>
           <p className="leading-8">
             The Zurura Initiative, born from the Scout Group Agency, is

@@ -36,7 +36,7 @@ export default function OurStorySection() {
           <div className="min-h-[60vh] bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1738216645/home_our_story_rx1s4r.png')] bg-cover bg-center rounded-lg">
             <div className="flex flex-col justify-start space-y-4 text-white px-4 py-8">
               <h2 className="font-thin text-slate-400">Our story</h2>
-              <div className="border rounded-lg w-full md:w-6/12 space-y-4 px-4 py-6">
+              <div className="border rounded-lg w-full md:w-7/12 space-y-4 px-4 py-6">
                 <h3 className="font-medium text-lg mb-8">
                   Accessible Tourism: A Path to Inclusion
                 </h3>

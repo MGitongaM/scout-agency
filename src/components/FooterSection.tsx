@@ -32,13 +32,13 @@ export default function FooterSection() {
           ))}
         </div>
 
-        <div className="flex items-center gap-4 bg-sgaGreen3 rounded-lg px-4 py-6 max-w-5xl mx-auto">
-          <p className="font-semibold w-64">Newsletter Sign Up</p>
+        <div className="flex flex-wrap md:flex-nowrap p items-center gap-4 bg-sgaGreen3 rounded-lg px-4 py-6 max-w-5xl mx-auto">
+          <p className="font-semibold w-full md:w-64">Newsletter Sign Up</p>
           <div className="flex flex-wrap items-center gap-2 justify-between px-4 py-6 rounded-lg bg-white w-full">
             <input
               type="email"
               placeholder="Enter your email here..."
-              className="outline w-10/12 rounded-lg py-3 px-2 text-black "
+              className="outline w-12/12 md:w-10/12 rounded-lg py-3 px-2 text-black "
             />
             <Button className="bg-red-500 font-semibold">Submit</Button>
           </div>

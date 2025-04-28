@@ -3,8 +3,8 @@ import CloudinaryImage from "../CloudinaryImage";
 export default function ObjectiveSection() {
   return (
     <section className="h-full bg-green-300">
-      <div className="container mx-auto flex justify-evenly items-center gap-12 px-4 py-20">
-        <div className="w-4/12 space-y-6">
+      <div className="container mx-auto flex flex-wrap lg:flex-nowrap justify-evenly items-center gap-12 px-4 py-20">
+        <div className="w-full lg:w-4/12 space-y-6">
           <h2 className="text-4xl font-thin">Our Objectives</h2>
           <p className="leading-8">
             Explore the core goals that drive the Zurura Initiative to create
@@ -14,15 +14,16 @@ export default function ObjectiveSection() {
             supported, and inspired throughout their journey.
           </p>
         </div>
-        <div className="w-4/12 flex justify-center items-center text-slate-100">
-          <div className="flex flex-col justify-center items-center gap-2">
-            <div className="bg-green-800  h-full w-72 rounded-lg ml-40 z-20">
+        <div className="w-full md:w-4/12 flex flex-wrap lg:flex-nowrap justify-center items-center gap-4 text-slate-100">
+          <div className="flex flex-col justify-center items-center gap-12">
+            {/* <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-10 lg:ml-40 z-20"> */}
+            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-5 lg:ml-10 z-20">
               <CloudinaryImage
                 src="zurura-initiative_Object_Image_vdzwxc"
                 height={800}
                 width={800}
                 alt="scout agency objective image"
-                className="object-cover h-56 w-72 "
+                className="object-cover h-56 w-full md:w-72 "
               />
               <div className="px-4 space-y-4 py-2">
                 <div className="flex justify-start items-center gap-">
@@ -33,13 +34,13 @@ export default function ObjectiveSection() {
                 </p>
               </div>
             </div>
-            <div className="bg-green-800  h-full w-72 rounded-lg -mt-10 z-10">
+            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-10 z-10">
               <CloudinaryImage
                 src="zurura-initiative_Object_Image_vdzwxc"
                 height={800}
                 width={800}
                 alt="scout agency objective image"
-                className="object-cover h-56 w-72 "
+                className="object-cover h-56 w-full md:w-72 "
               />
               <div className="px-4 space-y-4 py-2">
                 <div className="flex justify-start items-center gap-">
@@ -51,14 +52,15 @@ export default function ObjectiveSection() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center gap-2">
-            <div className="bg-green-800  h-full w-72 rounded-lg ml-40 z-20">
+          <div className="flex flex-col justify-center items-center gap-12">
+            {/* <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-10 lg:ml-40 z-20"> */}
+            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-5 lg:ml-10 z-20">
               <CloudinaryImage
                 src="zurura-initiative_Object_Image_vdzwxc"
                 height={800}
                 width={800}
                 alt="scout agency objective image"
-                className="object-cover h-56 w-72 "
+                className="object-cover h-56 w-full md:w-72 "
               />
               <div className="px-4 space-y-4 py-2">
                 <div className="flex justify-start items-center gap-">
@@ -69,13 +71,13 @@ export default function ObjectiveSection() {
                 </p>
               </div>
             </div>
-            <div className="bg-green-800  h-full w-72 rounded-lg -mt-10 z-10">
+            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-10 z-10">
               <CloudinaryImage
                 src="zurura-initiative_Object_Image_vdzwxc"
                 height={800}
                 width={800}
                 alt="scout agency objective image"
-                className="object-cover h-56 w-72 "
+                className="object-cover h-56 w-full md:w-72 "
               />
               <div className="px-4 space-y-4 py-2">
                 <div className="flex justify-start items-center gap-">

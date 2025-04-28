@@ -5,8 +5,8 @@ export default function WhoWeServeSection() {
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-20">
-        <div className="flex justify-evenly items-center gap-2">
-          <div className="w-4/12">
+        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-6">
+          <div className="w-full md:w-6/12 lg:w-4/12">
             <CloudinaryImage
               src="zurura-initiative_WhoWeServe_Image_v8fvj9"
               height={800}
@@ -15,7 +15,7 @@ export default function WhoWeServeSection() {
               className="object-cover h-full w-full rounded-lg"
             />
           </div>
-          <div className="w-4/12 space-y-6">
+          <div className="w-full md:w-6/12 lg:w-4/12 space-y-6">
             <h2 className="text-xl font-thin text-stone-400">Who we Serve</h2>
             <h3 className="text-2xl  ">
               Empowering Every Child, Embracing Every Ability

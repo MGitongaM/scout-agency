@@ -3,7 +3,7 @@ import CloudinaryImage from "../CloudinaryImage";
 export default function OurWordSection() {
   return (
     <section className=" ">
-      <div className="min0-h-[40vh] relative max-w-7xl mx-auto px-4 py-20 bg-slate-100 text-black rounded-lg -mt-36 ">
+      <div className="min0-h-[40vh] relative max-w-xl lg:max-w-7xl mx-auto px-4 py-20 bg-slate-100 text-black rounded-lg -mt-6 lg:-mt-36 ">
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <h2 className="text-4xl">You Have Our Word and So Much More</h2>
           <p className="leading-8">
@@ -12,7 +12,7 @@ export default function OurWordSection() {
             impact.
           </p>
         </div>
-        <div className="flex justify-evenly items-center pt-20 gap-16">
+        <div className="flex flex-wrap lg:flex-nowrap justify-evenly items-center pt-20 gap-16">
           <div className="">
             <CloudinaryImage
               src="1_nbkrpw"

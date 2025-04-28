@@ -1,10 +1,10 @@
-import CloudinaryImage from "../CloudinaryImage";
+// import CloudinaryImage from "../CloudinaryImage";
 
 export default function AboutUsSection() {
   return (
-    <section className="h-full">
-      <div className=" bg-green-600 flex justify-between items-center gap-12">
-        <div className="w-6/12  space-y-6 pl-40">
+    <section className="min-h-[60vh]">
+      <div className=" bg-green-600 flex flex-wrap-reverse md:flex-nowrap justify-between items-center gap-12">
+        <div className="w-full lg:w-6/12  space-y-6 pl-4 lg:pl-40">
           <h2 className="text-2xl font-thin text-stone-200">About Us</h2>
           <p className=" leading-8">
             Our organization is dedicated to redefining tourism by promoting
@@ -18,14 +18,14 @@ export default function AboutUsSection() {
             where every journey is enriching and accessible.
           </p>
         </div>
-        <div className="c">
-          <CloudinaryImage
+        <div className="min-h-[60vh] w-full lg:w-6/12 bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745592185/aboutUsPageHero_Image_wdyrwc.png')] bg-cover bg-center">
+          {/* <CloudinaryImage
             src="aboutUsSection_Image_mndaho"
             height={800}
             width={800}
             alt="scout agency about us section image"
             className="object-cover h-full w-full"
-          />
+          /> */}
         </div>
       </div>
     </section>
