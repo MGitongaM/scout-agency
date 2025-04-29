@@ -5,7 +5,7 @@ export default function AboutSection() {
     <section className="h-full">
       <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-12 px-4 py-20">
         <div className="w-full md:w-4/12">
-          <div className="min-h-96 w-11/12 rounded-lg bg-green-300"></div>
+          <div className="min-h-96 w-11/12 rounded-lg bg-scoutGreen2"></div>
           <CloudinaryImage
             src="zurura-initiative_About_Image_hckw5w"
             height={800}

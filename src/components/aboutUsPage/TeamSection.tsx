@@ -8,7 +8,7 @@ export default function TeamSection() {
       <div className="container mx-auto px-4 py-20">
         <div className="flex flex-wrap md:flex-nowrap justify-center items-start gap-12">
           <div className="w-full md:w-6/12 lg:w-4/12">
-            <div className="min-h-96 w-11/12 rounded-lg bg-green-700"></div>
+            <div className="min-h-96 w-11/12 rounded-lg bg-scoutGreen4"></div>
             <CloudinaryImage
               src="Joanne_Founder_Image_a7sawq"
               height={800}

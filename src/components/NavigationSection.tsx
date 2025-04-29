@@ -13,7 +13,7 @@ import { Menu } from "lucide-react";
 export default function NavigationSection() {
   return (
     <>
-      <nav className=" bg-black backdrop-blur-xl text-white w-full px-4  z-30">
+      <nav className=" bg-black/85 backdrop-blur-xl text-white w-full px-4  z-30">
         <NavigationMenu className="">
           <NavigationMenuList className="w-screen flex justify-between md:justify-around px-8">
             <NavigationMenuItem>
@@ -35,8 +35,8 @@ export default function NavigationSection() {
                   </NavigationMenuItem>
                 ))}
               </div>
-              <NavigationMenuItem>
-                <Button size="lg" className="bg-sgaGreen1 hover:bg-green-700">
+              <NavigationMenuItem asChild>
+                <Button variant='default' size="lg" className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110">
                   Donate
                 </Button>
               </NavigationMenuItem>
@@ -56,7 +56,7 @@ export default function NavigationSection() {
                   ))}
                 </div>
                 <NavigationMenuItem>
-                  <Button size="lg" className="bg-sgaGreen1 hover:bg-green-700">
+                  <Button size="lg" className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110">
                     Donate
                   </Button>
                 </NavigationMenuItem>

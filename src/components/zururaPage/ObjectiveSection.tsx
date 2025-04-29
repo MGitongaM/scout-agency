@@ -2,7 +2,7 @@ import CloudinaryImage from "../CloudinaryImage";
 
 export default function ObjectiveSection() {
   return (
-    <section className="h-full bg-green-300">
+    <section className="h-full bg-scoutGreen2">
       <div className="container mx-auto flex flex-wrap lg:flex-nowrap justify-evenly items-center gap-12 px-4 py-20">
         <div className="w-full lg:w-4/12 space-y-6">
           <h2 className="text-4xl font-thin">Our Objectives</h2>

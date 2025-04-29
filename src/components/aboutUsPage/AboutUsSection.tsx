@@ -3,10 +3,10 @@
 export default function AboutUsSection() {
   return (
     <section className="min-h-[60vh]">
-      <div className=" bg-green-600 flex flex-wrap-reverse md:flex-nowrap justify-between items-center gap-12">
+      <div className=" bg-scoutGreen4 flex flex-wrap-reverse md:flex-nowrap justify-between items-center gap-12">
         <div className="w-full lg:w-6/12  space-y-6 pl-4 lg:pl-40">
           <h2 className="text-2xl font-thin text-stone-200">About Us</h2>
-          <p className=" leading-8">
+          <p className=" leading-8 text-slate-100">
             Our organization is dedicated to redefining tourism by promoting
             accessibility and inclusivity for everyone. We work with
             policymakers, industry leaders, and communities to create travel
