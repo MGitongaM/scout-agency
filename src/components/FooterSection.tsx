@@ -7,7 +7,7 @@ import CloudinaryImage from "./CloudinaryImage";
 export default function FooterSection() {
   return (
     <>
-      <section className="bg-green-800 text-white pb-20">
+      <section className="bg-scoutGreen4 text-slate-100 pb-20">
         <div className="container mx-auto flex flex-wrap gap-x-12 gap-y-8 items-center justify-evenly px-4 pb-10 ">
           <div className="">
             <CloudinaryImage
@@ -34,13 +34,13 @@ export default function FooterSection() {
 
         <div className="flex flex-wrap md:flex-nowrap p items-center gap-4 bg-sgaGreen3 rounded-lg px-4 py-6 max-w-5xl mx-auto">
           <p className="font-semibold w-full md:w-64">Newsletter Sign Up</p>
-          <div className="flex flex-wrap items-center gap-2 justify-between px-4 py-6 rounded-lg bg-white w-full">
+          <div className="flex flex-wrap items-center gap-2 justify-between px-4 py-6 rounded-lg bg-scoutGreen3 w-full">
             <input
               type="email"
               placeholder="Enter your email here..."
-              className="outline w-12/12 md:w-10/12 rounded-lg py-3 px-2 text-black "
+              className="outline w-12/12 md:w-10/12 rounded-lg py-3 px-2 text-black bg-white "
             />
-            <Button className="bg-red-500 font-semibold">Submit</Button>
+            <Button className="bg-red-500 hover:bg-scoutGreen4 hover:scale-110 font-semibold">Submit</Button>
           </div>
         </div>
         <Separator className="max-w-5xl mx-auto mt-10" />

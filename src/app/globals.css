@@ -5,6 +5,17 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+
+  /* custom scout agency colors for the ui  */
+    --color-scoutGreen1:hsla(100, 50%, 39%, 1);
+    --color-scoutGreen2:hsla(100, 53%, 85%, 1);
+    --color-scoutGreen3: hsla(100, 13%, 38%, 1);
+    --color-scoutGreen4: hsla(100, 77%, 16%, 1);
+
+
+
+    
+
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 
