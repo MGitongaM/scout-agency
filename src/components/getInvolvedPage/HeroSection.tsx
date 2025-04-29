@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="min-h-screen w-full ">
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="w-full h-[20vh] md:min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745753776/zurura-initiative_ActiviesBackground_Image_p0larw.png')] bg-cover bg-center">
-        <div className="min-h-screen bg-black/0 backdrop-blur-lg"></div>
+        {/* <div className="min-h-screen bg-black/0 backdrop-blur-lg"></div> */}
         </div>
         <div className="w-full grid place-content-center bg-scoutGreen4 text-slate-100">
           <div className="max-w-xl mx-auto px-4 py-16 space-y-6">
