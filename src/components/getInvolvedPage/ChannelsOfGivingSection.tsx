@@ -14,7 +14,7 @@ export default function ChannelsOfGivingSection() {
           </p>
         </div>
         <div className="flex flex-wrap justify-evenly items-center gap-12 mt-20">
-          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745753776/zurura-initiative_ActiviesBackground_Image_p0larw.png')] bg-cover bg-center ">
+          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750256225/sponsor_school_1_fim9pg.png')] bg-cover bg-center ">
             <div className="bg-green-700 text-slate-100 rounded-lg px-4 py-3 mt-52 mx-4">
               <div className="flex justify-evenly items-start gap-2">
                 <div className="c">
@@ -30,7 +30,7 @@ export default function ChannelsOfGivingSection() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745753764/zurura-initiative_About_Image_hckw5w.png')] bg-cover bg-center ">
+          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750256215/sponsor_school_2_tcug05.png')] bg-cover bg-center ">
             <div className="bg-green-700 text-slate-100 rounded-lg px-4 py-3 mt-52 mx-4">
               <div className="flex justify-evenly items-start gap-2">
                 <div className="c">
@@ -46,7 +46,7 @@ export default function ChannelsOfGivingSection() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745753768/zurura-initiative_Hero_Image_cw3ev2.png')] bg-cover bg-center ">
+          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750256219/sponsor_school_3_vvb8ih.png')] bg-cover bg-center ">
             <div className="bg-green-700 text-slate-100 rounded-lg px-4 py-3 mt-52 mx-4">
               <div className="flex justify-evenly items-start gap-2">
                 <div className="c">
@@ -62,7 +62,7 @@ export default function ChannelsOfGivingSection() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745753764/zurura-initiative_Object_Image_vdzwxc.png')] bg-cover bg-center ">
+          <div className="w-full md:w-5/12 min-h-[40vh] bg-green-300 rounded-lg bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750256226/sponsor_school_4_aqfwf3.png')] bg-cover bg-center ">
             <div className="bg-green-700 text-slate-100 rounded-lg px-4 py-3 mt-52 mx-4">
               <div className="flex justify-evenly items-start gap-2">
                 <div className="c">

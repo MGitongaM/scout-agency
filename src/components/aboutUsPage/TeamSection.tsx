@@ -29,16 +29,16 @@ export default function TeamSection() {
                 </p>
                 <div className="w-32 flex  justify-evenly items-center gap-2">
                 <Link href={""}>
-                    <X  className="border border-black size-7 hover:scale-110 rounded-lg p-1"/>
+                    <X  className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1"/>
                 </Link>
                 <Link href={""}>
-                    <Instagram className=" size-7 hover:scale-110 rounded-lg"/>
+                    <Instagram className=" size-7 hover:scale-110 transition duration-300 rounded-lg"/>
                 </Link>
                 <Link href={""}>
-                    <Facebook className="border border-black size-7 hover:scale-110 rounded-lg p-1" />
+                    <Facebook className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" />
                 </Link>
                 <Link href={""}>
-                    <Linkedin className="border border-black size-7 hover:scale-110 rounded-lg p-1" />
+                    <Linkedin className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" />
                 </Link>
                 </div>
 

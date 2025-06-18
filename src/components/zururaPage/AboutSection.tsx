@@ -7,7 +7,7 @@ export default function AboutSection() {
         <div className="w-full md:w-4/12">
           <div className="min-h-96 w-11/12 rounded-lg bg-scoutGreen2"></div>
           <CloudinaryImage
-            src="zurura-initiative_About_Image_hckw5w"
+            src="zurura_about-section_image_tejozo"
             height={800}
             width={800}
             alt="scount agency zurura inititive about section image"

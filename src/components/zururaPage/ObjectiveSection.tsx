@@ -19,7 +19,7 @@ export default function ObjectiveSection() {
             {/* <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-10 lg:ml-40 z-20"> */}
             <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-5 lg:ml-10 z-20">
               <CloudinaryImage
-                src="zurura-initiative_Object_Image_vdzwxc"
+                src="zurura_objective_1_vwtnnt"
                 height={800}
                 width={800}
                 alt="scout agency objective image"
@@ -36,7 +36,7 @@ export default function ObjectiveSection() {
             </div>
             <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-10 z-10">
               <CloudinaryImage
-                src="zurura-initiative_Object_Image_vdzwxc"
+                src="zurura_objective_3_lhperv"
                 height={800}
                 width={800}
                 alt="scout agency objective image"
@@ -56,7 +56,7 @@ export default function ObjectiveSection() {
             {/* <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-10 lg:ml-40 z-20"> */}
             <div className="bg-green-800  h-full w-full md:w-72 rounded-lg ml-5 lg:ml-10 z-20">
               <CloudinaryImage
-                src="zurura-initiative_Object_Image_vdzwxc"
+                src="zurura_objective_2_a47doj"
                 height={800}
                 width={800}
                 alt="scout agency objective image"
@@ -73,7 +73,7 @@ export default function ObjectiveSection() {
             </div>
             <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-10 z-10">
               <CloudinaryImage
-                src="zurura-initiative_Object_Image_vdzwxc"
+                src="zurura_objective_4_bncqac"
                 height={800}
                 width={800}
                 alt="scout agency objective image"

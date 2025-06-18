@@ -4,11 +4,12 @@ export default function HeroSection() {
   return (
     <section className="min-h-screen w-full ">
       <div className="flex flex-wrap md:flex-nowrap">
-        <div className="w-full h-[20vh] md:min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745753776/zurura-initiative_ActiviesBackground_Image_p0larw.png')] bg-cover bg-center">
+        <div className="w-full h-[20vh] md:min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750256218/get-involved_Hero_image_n0sxgf.png')] bg-cover bg-center">
         {/* <div className="min-h-screen bg-black/0 backdrop-blur-lg"></div> */}
         </div>
         <div className="w-full grid place-content-center bg-scoutGreen4 text-slate-100">
-          <div className="max-w-xl mx-auto px-4 py-16 space-y-6">
+          {/* <div className="max-w-xl mx-auto px-4 py-16 space-y-6"> */}
+          <div className="max-w-xl mx-auto px-4 pb-16 space-y-6">
             <h1 className="text-4xl font-bold">
               It&apos;s Time to Take Action
             </h1>
@@ -31,7 +32,7 @@ export default function HeroSection() {
               belong.
             </p>
 
-            <Button className="bg-scoutGreen1 w-48 h-12 hover:bg-green-700 hover:scale-110 text-xl">
+            <Button className="bg-scoutGreen1 w-48 h-12 hover:bg-green-700 hover:scale-110 transition duration-300 text-xl">
               Donate
             </Button>
           </div>

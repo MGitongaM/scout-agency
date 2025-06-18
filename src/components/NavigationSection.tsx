@@ -15,8 +15,8 @@ export default function NavigationSection() {
     <>
       <nav className=" bg-black/85 backdrop-blur-xl text-white w-full px-4  z-30">
         <NavigationMenu className="">
-          <NavigationMenuList className="w-screen flex justify-between md:justify-around px-8">
-            <NavigationMenuItem>
+          <NavigationMenuList className="w-[95dvw]  flex justify-between md:justify-between px-8">
+            <NavigationMenuItem className=" w-full">
               <Link href="/">
                 <CloudinaryImage
                   src="scout_logo_b1mzxq"
@@ -27,7 +27,7 @@ export default function NavigationSection() {
                 />
               </Link>
             </NavigationMenuItem>
-            <div className="hidden md:flex items-center">
+            <div className="hidden w-full md:flex items-center ">
               <div className="w-[50vw] mx-auto flex justify-end gap-x-4 lg:gap-x-12 px-4">
                 {navigationEntries.map((entry) => (
                   <NavigationMenuItem key={entry.id}>
@@ -56,7 +56,7 @@ export default function NavigationSection() {
                   ))}
                 </div>
                 <NavigationMenuItem>
-                  <Button size="lg" className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110">
+                  <Button size="lg" className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110 transition duration-300">
                     Donate
                   </Button>
                 </NavigationMenuItem>

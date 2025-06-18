@@ -8,7 +8,7 @@ export default function WhoWeServeSection() {
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-6">
           <div className="w-full md:w-6/12 lg:w-4/12">
             <CloudinaryImage
-              src="zurura-initiative_WhoWeServe_Image_v8fvj9"
+              src="zurura_serve_section_image_xhvp7l"
               height={800}
               width={800}
               alt="scount agency zurura initiative who we are image"
@@ -35,7 +35,7 @@ export default function WhoWeServeSection() {
             <Button
               size="lg"
               variant="outline"
-              className="text-lg  text-green-500"
+              className="text-lg  text-green-500 hover:scale-110 transition duration-300"
             >
               Take Action...
             </Button>

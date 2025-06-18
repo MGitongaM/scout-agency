@@ -2,8 +2,8 @@ import CloudinaryImage from "../CloudinaryImage";
 
 export default function ActiviesSection() {
   return (
-    <section className="min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745753776/zurura-initiative_ActiviesBackground_Image_p0larw.png')] bg-cover bg-center">
-      <div className="min-h-screen w-full bg-black/65 backdrop-blur-md">
+    <section className="min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750257332/zurua_adventures_background_image_wcxgzg.png')] bg-cover bg-center">
+      <div className="min-h-screen w-full bg-black/75 backdrop-blur-md">
         <div className="h-full text-slate-100 container mx-auto px-4 py-20">
           <div className="max-w-5xl mx-auto space-y-12">
             <div className="text-center">

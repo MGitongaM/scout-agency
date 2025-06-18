@@ -8,7 +8,7 @@ export default function MakeItHappenSection() {
           <div className="w-full md:w-4/12">
             <div className="min-h-96 w-11/12 rounded-lg bg-scoutGreen2"></div>
             <CloudinaryImage
-              src="zurura-initiative_MakeITHappen_Image_qq0ipr"
+              src="zurura_happen_section_xk7len"
               height={800}
               width={800}
               alt="scount agency founder image"

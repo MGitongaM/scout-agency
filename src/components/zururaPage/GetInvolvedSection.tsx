@@ -24,18 +24,18 @@ export default function GetInvolvedSection() {
             <Button
               size="lg"
               variant="outline"
-              className="text-lg  text-green-500"
+              className="text-lg  text-green-500 hover:scale-110 transition duration-300"
             >
               Take Action...
             </Button>
           </div>
           <div className="w-full md:w-6/12 lg:w-4/12">
             <CloudinaryImage
-              src="zurura-initiative_GetInvolved_Image_dqlk8d"
+              src="zurura_get-involved-section_euwvuv"
               height={800}
               width={800}
               alt="scount agency  get involved image"
-              className="object-cover h-full w-full rounded-lg"
+              className="object-cover h-full w-full rounded-lg "
             />
           </div>
         </div>

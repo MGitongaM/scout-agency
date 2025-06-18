@@ -40,7 +40,7 @@ export default function FooterSection() {
               placeholder="Enter your email here..."
               className="outline w-12/12 md:w-10/12 rounded-lg py-3 px-2 text-black bg-white "
             />
-            <Button className="bg-red-500 hover:bg-scoutGreen4 hover:scale-110 font-semibold">Submit</Button>
+            <Button className="bg-red-500 hover:bg-scoutGreen4 hover:scale-110 transition duration-300 font-semibold">Submit</Button>
           </div>
         </div>
         <Separator className="max-w-5xl mx-auto mt-10" />

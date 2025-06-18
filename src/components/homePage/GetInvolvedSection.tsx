@@ -8,7 +8,7 @@ export default function GetInvolvedSection() {
         <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-12">
           <div className="bg-slate-400 rounded-lg h-96 w-full md:w-[40vw]">
             <CloudinaryImage
-                src="hands_get_inlvoved_koazpu"
+                src="get_involved_image_rnyaam"
                 height={400}
                 width={400}
                 alt="diverse hands"
@@ -33,7 +33,7 @@ export default function GetInvolvedSection() {
             <Button
               variant="outline"
               size="default"
-              className="text-green-600 bg-transparent font-medium border-green-600 w-48"
+              className="text-green-600 bg-transparent font-medium border-green-600 w-48 hover:scale-110 transition duration-300"
             >
               Learn More...
             </Button>
