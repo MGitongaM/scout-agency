@@ -1,8 +1,11 @@
-import { navigationEntries } from "@/constData/homePage";
+import { navigationEntries, ourWorNavigationkEntries } from "@/constData/homePage";
 import {
   NavigationMenu,
+  NavigationMenuContent,
   NavigationMenuItem,
+  NavigationMenuLink,
   NavigationMenuList,
+  NavigationMenuTrigger,
 } from "./ui/navigation-menu";
 import Link from "next/link";
 import { Button } from "./ui/button";
@@ -14,7 +17,7 @@ export default function NavigationSection() {
   return (
     <>
       <nav className=" bg-black/85 backdrop-blur-xl text-white w-full px-4  z-30">
-        <NavigationMenu className="">
+        <NavigationMenu viewport={false} className="">
           <NavigationMenuList className="w-[95dvw]  flex justify-between md:justify-between px-8">
             <NavigationMenuItem className=" w-full">
               <Link href="/">
@@ -35,11 +38,28 @@ export default function NavigationSection() {
                   </NavigationMenuItem>
                 ))}
               </div>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent mx-1 text-white">Our Work</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-32 gap-4">
+                  {ourWorNavigationkEntries.map((entry)=>(
+                    <li key={entry.entries[0].id} className="">
+                      <NavigationMenuLink asChild>
+                          <Link href={entry.entries[0].link}>
+                          {entry.entries[0].heading}
+                          </Link>
+                      </NavigationMenuLink>
+                    </li>
+                  ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
               <NavigationMenuItem asChild>
                 <Button variant='default' size="lg" className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110">
                   Donate
                 </Button>
               </NavigationMenuItem>
+              
             </div>
           {/* mobile nav  */}
           <div className="block md:hidden">
