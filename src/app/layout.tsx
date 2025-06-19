@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import FooterSection from "@/components/FooterSection";
 import NavigationSection from "@/components/NavigationSection";
+import { getCldOgImageUrl } from "next-cloudinary";
 
 
 const dmSans=DM_Sans({
@@ -11,9 +12,20 @@ const dmSans=DM_Sans({
   display:"swap",
 })
 
+const url=getCldOgImageUrl({src:"home-page-og_dpe1cb"})
+
 export const metadata: Metadata = {
   title: "Scout Group Agency",
   description: "Our misiion is promotes inclusive tourism, ensuring travel is accessible to all. ",
+  openGraph:{
+    images:[
+      {
+        width:1200,
+        height:627,
+        url
+      }
+    ]
+  }
 };
 
 export default function RootLayout({

@@ -15,19 +15,19 @@ export default function HeroSection() {
             </h1>
             <p className="leading-8">
               Thousands of children with special needs in Kenya miss out on
-              life-enriching experiences due to inaccessibility and lack of
-              resources. These children are often left behind—excluded from
+              life enriching experiences due to inaccessibility and lack of
+              resources. These children are often left behind, excluded from
               opportunities that build confidence, spark curiosity, and create
               joy.
             </p>
             <p className="leading-8">
               But together, we can change that. With your support, we can open
               doors to Kenya&apos;s wildlife, culture, and education for every
-              child—regardless of ability or background. There are many ways to
+              child regardless of ability or background. There are many ways to
               get involved.
             </p>
             <p className="leading-8">
-              What matters most is that we choose to act. Join us today—and help
+              What matters most is that we choose to act. Join us today and help
               create a world where every child gets to explore, learn, and
               belong.
             </p>
