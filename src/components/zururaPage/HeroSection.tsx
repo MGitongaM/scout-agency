@@ -9,7 +9,7 @@ export default function HeroSection() {
             <h1 className="text-4xl md:text-5xl font-bold">
               Accessible Adventure,Meaningful Memories
             </h1>
-            <p className=" max-w-lg mx-auto  text-lg">
+            <p className=" max-w-xl mx-auto  text-xl">
               Creating inclusive educational and recreational experiences for
               special needs children across Kenya.
             </p>
