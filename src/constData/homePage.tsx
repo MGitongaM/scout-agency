@@ -98,10 +98,23 @@ export const navigationEntries=[
       },
     ],
   },
+  // {
+  //   id:3,
+  //   title:"Our Work",
+  //   link:"/zurura-initiative",
+  //   entries:[
+  //     {
+  //       id: 1,
+  //       heading: "",
+  //       link: "",
+  //     },
+  //   ],
+  // },
+
   {
     id:3,
-    title:"Our Work",
-    link:"/zurura-initiative",
+    title:"Get Involved",
+    link:"/get-involved",
     entries:[
       {
         id: 1,
@@ -110,15 +123,17 @@ export const navigationEntries=[
       },
     ],
   },
-  {
-    id:4,
-    title:"Get Involved",
-    link:"/get-involved",
+]
+export const ourWorNavigationkEntries=[
+    {
+    id:1,
+    title:"Our Work",
+    link:"",
     entries:[
       {
         id: 1,
-        heading: "",
-        link: "",
+        heading: "Zurura Initiative",
+        link: "/zurura-initiative",
       },
     ],
   },
