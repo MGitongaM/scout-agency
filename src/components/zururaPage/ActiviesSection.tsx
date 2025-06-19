@@ -2,7 +2,7 @@ import CloudinaryImage from "../CloudinaryImage";
 
 export default function ActiviesSection() {
   return (
-    <section className="min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750257332/zurua_adventures_background_image_wcxgzg.png')] bg-cover bg-center">
+    <section className="min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750327740/zurura_activities_bg_darken_image_nxznf8.png')] bg-cover bg-center">
       <div className="min-h-screen w-full bg-black/75 backdrop-blur-md">
         <div className="h-full text-slate-100 container mx-auto px-4 py-20">
           <div className="max-w-5xl mx-auto space-y-12">
@@ -12,7 +12,7 @@ export default function ActiviesSection() {
                 Adventures Designed for Learning, Connection, and Joy
               </h3>
               <p className="max-w-3xl mx-auto leading-8 pt-6">
-                Each Zurura trip blends education, exploration, and fun—designed
+                Each Zurura trip blends education, exploration, and fun designed
                 to spark curiosity, foster inclusion, and let every child
                 experience Kenya&apos;s wonders in a safe, accessible, and
                 engaging way.

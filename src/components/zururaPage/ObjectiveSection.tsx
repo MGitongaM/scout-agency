@@ -34,7 +34,7 @@ export default function ObjectiveSection() {
                 </p>
               </div>
             </div>
-            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-10 z-10">
+            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-20 z-10">
               <CloudinaryImage
                 src="zurura_objective_3_lhperv"
                 height={800}
@@ -71,7 +71,7 @@ export default function ObjectiveSection() {
                 </p>
               </div>
             </div>
-            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-10 z-10">
+            <div className="bg-green-800  h-full w-full md:w-72 rounded-lg -mt-20 z-10">
               <CloudinaryImage
                 src="zurura_objective_4_bncqac"
                 height={800}
