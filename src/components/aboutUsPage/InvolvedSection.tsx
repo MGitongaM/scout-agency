@@ -24,14 +24,14 @@ export default function InvolvedSection() {
             <Button
               size="lg"
               variant="outline"
-              className="text-lg  text-green-500"
+              className="text-lg text-green-500 hover:scale-110 transition duration-300"
             >
               Take Action...
             </Button>
           </div>
           <div className="w-full lg:w-5/12">
             <CloudinaryImage
-              src="getInvolved_Image_yzdyqo"
+              src="get-involved-section_image_nslkjt"
               height={800}
               width={800}
               alt="scount agency  get involved image"

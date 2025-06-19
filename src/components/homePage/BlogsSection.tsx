@@ -36,7 +36,7 @@ export default function BlogsSection() {
           ))}
         </div>
         <div className="grid place-content-center mt-8">
-          <Button size="default" className="bg-scoutGreen1 text-lg hover:bg-green-700 hover:scale-110">
+          <Button size="lg" className="bg-scoutGreen1 text-lg hover:bg-green-700 hover:scale-110 transition duration-300">
             View More Blogs & Articles
           </Button>
         </div>

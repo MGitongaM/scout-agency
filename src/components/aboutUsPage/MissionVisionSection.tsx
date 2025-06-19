@@ -7,7 +7,7 @@ export default function MissionVisionSection() {
         <div className="flex flex-wrap-reverse  md:flex-nowrap justify-evenly items-start gap-6">
           <div className="w-full md:w-6/12 lg:w-4/12">
             <CloudinaryImage
-              src="mission_Image_rwhl0f"
+              src="mission_image_xmcpvr"
               height={800}
               width={800}
               alt="scout group agency mission image"
@@ -37,7 +37,7 @@ export default function MissionVisionSection() {
           </div>
           <div className="w-full md:w-6/12 lg:w-4/12">
             <CloudinaryImage
-              src="vision_image_f6qetf"
+              src="vision_image_iffkeu"
               height={800}
               width={800}
               alt="scout group agency mission image"

@@ -18,14 +18,14 @@ export default function OurWorkSection() {
             <Button
               variant="outline"
               size="default"
-              className="text-slate-700 bg-transparent font-medium border-slate-700 w-full md:w-48"
+              className="text-slate-700 bg-transparent font-medium border-slate-700 w-full md:w-48 hover:scale-110 transition duration-300"
             >
               Learn More...
             </Button>
           </div>
           <div className="h-[40vh] w-full bg-slate-400 rounded-lg">
             <CloudinaryImage
-              src="our_work_wheelchair_tosotd"
+              src="our_work_image_bgc05b"
               height={400}
               width={400}
               alt="scout group agency logo"
@@ -41,7 +41,7 @@ export default function OurWorkSection() {
                 entry.id == 1 && "bg-scoutGreen3",
                 entry.id == 2 && "bg-scoutGreen4",
                 entry.id == 3 && "bg-scoutGreen3",
-                "rounded-lg space-y-4 px-8 lg:px-16 py-12 flex flex-col justify-between w-full md:w-[28vw]"
+                "rounded-lg space-y-4 px-8 lg:px-16 py-12 flex flex-col justify-between w-full md:w-5/12 lg:w-[24rem]"
               )}
             >
               <p className="font-semibold">{entry.heading}</p>
@@ -50,7 +50,7 @@ export default function OurWorkSection() {
                 <Button
                   variant="outline"
                   size="default"
-                  className="text-zinc-100 bg-transparent font-medium border-zinc-100 w-48"
+                  className="text-zinc-100 bg-transparent font-medium border-zinc-100 w-48 hover:scale-110 transition duration-300"
                 >
                   Learn More...
                 </Button>

@@ -18,7 +18,7 @@ export default function AboutUsSection() {
             where every journey is enriching and accessible.
           </p>
         </div>
-        <div className="min-h-[60vh] w-full lg:w-6/12 bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1745592185/aboutUsPageHero_Image_wdyrwc.png')] bg-cover bg-center">
+        <div className="min-h-[60vh] w-full lg:w-6/12 bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750254947/about-us-section_image_r5qyqq.png')] bg-cover bg-center">
           {/* <CloudinaryImage
             src="aboutUsSection_Image_mndaho"
             height={800}
