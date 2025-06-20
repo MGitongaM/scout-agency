@@ -1,4 +1,7 @@
-import { navigationEntries, ourWorNavigationkEntries } from "@/constData/homePage";
+import {
+  navigationEntries,
+  ourWorNavigationkEntries,
+} from "@/constData/homePage";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -39,50 +42,56 @@ export default function NavigationSection() {
                 ))}
               </div>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent mx-1 text-white">Our Work</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent mx-1 text-white">
+                  Our Work
+                </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-32 gap-4">
-                  {ourWorNavigationkEntries.map((entry)=>(
-                    <li key={entry.entries[0].id} className="">
-                      <NavigationMenuLink asChild>
-                          <Link href={entry.entries[0].link}>
-                          {entry.entries[0].heading}
-                          </Link>
-                      </NavigationMenuLink>
-                    </li>
-                  ))}
+                  <ul className="grid w-52 gap-4">
+                    {ourWorNavigationkEntries[0].entries.map((entry) => (
+                      <li key={entry.id} className="">
+                        <NavigationMenuLink asChild>
+                          <Link href={entry.link}>{entry.heading}</Link>
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem asChild>
-                <Button variant='default' size="lg" className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110">
+                <Button
+                  variant="default"
+                  size="lg"
+                  className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110"
+                >
                   Donate
                 </Button>
               </NavigationMenuItem>
-              
             </div>
-          {/* mobile nav  */}
-          <div className="block md:hidden">
-            <Sheet>
-              <SheetTrigger>
-                <Menu size={48} className="" />
-              </SheetTrigger>
-              <SheetContent side='top'>
-                <div className="flex flex-col justify gap-x-4">
-                  {navigationEntries.map((entry) => (
-                    <NavigationMenuItem key={entry.id}>
-                      <Link href={entry.link}>{entry.title}</Link>
-                    </NavigationMenuItem>
-                  ))}
-                </div>
-                <NavigationMenuItem>
-                  <Button size="lg" className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110 transition duration-300">
-                    Donate
-                  </Button>
-                </NavigationMenuItem>
-              </SheetContent>
-            </Sheet>
-          </div>
+            {/* mobile nav  */}
+            <div className="block md:hidden">
+              <Sheet>
+                <SheetTrigger>
+                  <Menu size={48} className="" />
+                </SheetTrigger>
+                <SheetContent side="top">
+                  <div className="flex flex-col justify gap-x-4">
+                    {navigationEntries.map((entry) => (
+                      <NavigationMenuItem key={entry.id}>
+                        <Link href={entry.link}>{entry.title}</Link>
+                      </NavigationMenuItem>
+                    ))}
+                  </div>
+                  <NavigationMenuItem>
+                    <Button
+                      size="lg"
+                      className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110 transition duration-300"
+                    >
+                      Donate
+                    </Button>
+                  </NavigationMenuItem>
+                </SheetContent>
+              </Sheet>
+            </div>
           </NavigationMenuList>
         </NavigationMenu>
       </nav>

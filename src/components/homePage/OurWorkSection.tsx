@@ -2,6 +2,7 @@ import { ourWorkEntries } from "@/constData/homePage";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
 import CloudinaryImage from "../CloudinaryImage";
+import Link from "next/link";
 
 export default function OurWorkSection() {
   return (
@@ -52,7 +53,7 @@ export default function OurWorkSection() {
                   size="default"
                   className="text-zinc-100 bg-transparent font-medium border-zinc-100 w-48 hover:scale-110 transition duration-300"
                 >
-                  Learn More...
+                  <Link href={entry.link}>Learn More...</Link>
                 </Button>
               </div>
             </div>

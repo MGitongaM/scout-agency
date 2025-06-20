@@ -29,21 +29,21 @@ export const blogsEntries = [
   {
     id: 1,
     heading: "15% of Africans have a disability",
-    imgSrc:"blog1_image_gofw9j",
+    imgSrc: "blog1_image_gofw9j",
     excerpt:
       "This includes both visible and invisible disabilities, such as physical disabilities, intellectual disabilities, and mental health conditions. ",
   },
   {
     id: 2,
     heading: "15% of Africans have a disability",
-    imgSrc:"blog2_image_vqr38w",
+    imgSrc: "blog2_image_vqr38w",
     excerpt:
       "This includes both visible and invisible disabilities, such as physical disabilities, intellectual disabilities, and mental health conditions. ",
   },
   {
     id: 3,
     heading: "15% of Africans have a disability",
-    imgSrc:"blog3_image_ce60ps",
+    imgSrc: "blog3_image_ce60ps",
     excerpt:
       "This includes both visible and invisible disabilities, such as physical disabilities, intellectual disabilities, and mental health conditions. ",
   },
@@ -55,30 +55,30 @@ export const ourWorkEntries = [
     heading: "Zurura initiative",
     highlight:
       "This initiative aims to provide children from special needs and  inclusive schools in Kenya with enriching and inclusive experiences through educational and  recreational trips",
-    link: "",
+    link: "/zurura-initiative",
   },
   {
     id: 2,
     heading: "Accessible Tourism in Kenya",
     highlight:
       "Accessible tourism ensures equal travel experiences for all, adapting accommodations, transportation, attractions, and services in Kenya to meet diverse needs, fostering inclusion and growth.",
-    link: "",
+    link: "/#",
   },
   {
     id: 3,
     heading: "Research & training",
     highlight:
       "We conduct a comprehensive accessibility audit of our current tourism offerings, including but not limited to hotels, restaurants, transportation options, and popular attractions.",
-    link: "",
+    link: "/#",
   },
 ];
 
-export const navigationEntries=[
+export const navigationEntries = [
   {
-    id:1,
-    title:"Home",
-    link:"/",
-    entries:[
+    id: 1,
+    title: "Home",
+    link: "/",
+    entries: [
       {
         id: 1,
         heading: "",
@@ -87,10 +87,10 @@ export const navigationEntries=[
     ],
   },
   {
-    id:2,
-    title:"About Us",
-    link:"/about-us",
-    entries:[
+    id: 2,
+    title: "About Us",
+    link: "/about-us",
+    entries: [
       {
         id: 1,
         heading: "",
@@ -98,24 +98,12 @@ export const navigationEntries=[
       },
     ],
   },
-  // {
-  //   id:3,
-  //   title:"Our Work",
-  //   link:"/zurura-initiative",
-  //   entries:[
-  //     {
-  //       id: 1,
-  //       heading: "",
-  //       link: "",
-  //     },
-  //   ],
-  // },
 
   {
-    id:3,
-    title:"Get Involved",
-    link:"/get-involved",
-    entries:[
+    id: 3,
+    title: "Get Involved",
+    link: "/get-involved",
+    entries: [
       {
         id: 1,
         heading: "",
@@ -123,21 +111,31 @@ export const navigationEntries=[
       },
     ],
   },
-]
-export const ourWorNavigationkEntries=[
-    {
-    id:1,
-    title:"Our Work",
-    link:"",
-    entries:[
+];
+export const ourWorNavigationkEntries = [
+  {
+    id: 1,
+    title: "Our Work",
+    link: "",
+    entries: [
       {
         id: 1,
         heading: "Zurura Initiative",
         link: "/zurura-initiative",
       },
+      {
+        id: 2,
+        heading: "Accessible Tourism in Kenya",
+        link: "/#",
+      },
+      {
+        id: 3,
+        heading: "Research & Training",
+        link: "/#",
+      },
     ],
   },
-]
+];
 
 export const footerEntries = [
   {
@@ -210,18 +208,18 @@ export const socialEntries = [
     id: 1,
     Platform: "X",
     Link: "",
-    icon:<X size={20}/>
+    icon: <X size={20} />,
   },
   {
     id: 2,
     Platform: "LinkedIn",
     Link: "",
-    icon:<Linkedin size={20}/>
+    icon: <Linkedin size={20} />,
   },
   {
     id: 3,
     Platform: "Facebook",
     Link: "",
-    icon:<FacebookIcon size={20}/>
+    icon: <FacebookIcon size={20} />,
   },
 ];
