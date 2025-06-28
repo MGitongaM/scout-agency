@@ -34,15 +34,20 @@ export default function NavigationSection() {
               </Link>
             </NavigationMenuItem>
             <div className="hidden w-full md:flex items-center ">
-              <div className="w-[50vw] mx-auto flex justify-end gap-x-4 lg:gap-x-12 px-4">
-                {navigationEntries.map((entry) => (
+              <div className="w-[50vw] mx-auto flex items-center justify-end gap-x-4 lg:gap-x-12 px-4 md:pr-12">
+                {/* {navigationEntries.map((entry) => (
                   <NavigationMenuItem key={entry.id}>
                     <Link href={entry.link}>{entry.title}</Link>
                   </NavigationMenuItem>
-                ))}
-              </div>
+                ))} */}
+                <NavigationMenuItem>
+                  <Link href="/">Home</Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link href="/about-us">About Us</Link>
+                </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent mx-1 text-white">
+                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent text-white">
                   Our Work
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
@@ -57,6 +62,10 @@ export default function NavigationSection() {
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link href="/get-involved">Get Involved</Link>
+              </NavigationMenuItem>
+              </div>
               <NavigationMenuItem asChild>
                 <Button
                   variant="default"
