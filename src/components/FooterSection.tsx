@@ -17,6 +17,11 @@ export default function FooterSection() {
                 alt="scout group agency logo"
                 className="object-contain size-56"
             />
+            <div className="-mt-8 space-y-2">
+              <p className="c">3 Riverside Drive, Chiromo Road</p>
+              <p className="c">Nairobi, Kenya</p>
+              <p className="c">+254 701 711 737</p>
+            </div>
           </div>
           {footerEntries.map((entry) => (
             <div key={entry.id} className="c">
