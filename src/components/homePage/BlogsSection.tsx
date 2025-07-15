@@ -1,7 +1,9 @@
-import { blogsEntries } from "@/constData/homePage";
+// import { blogsEntries } from "@/constData/homePage";
 import React from "react";
 import { Button } from "../ui/button";
-import CloudinaryImage from "../CloudinaryImage";
+// import CloudinaryImage from "../CloudinaryImage";
+import Link from "next/link";
+import Listings from "../blogsAndArticlesPage/Listings";
 
 export default function BlogsSection() {
   return (
@@ -16,7 +18,7 @@ export default function BlogsSection() {
             tourism is making travel better for everyone.
           </p>
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-12 mt-12">
+        {/* <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-12 mt-12">
           {blogsEntries.map((entry) => (
             <div key={entry.id} className=" w-full md:w-[26vw] rounded-lg shadow-lg">
               <div className="h-64  bg-slate-400 rounded-t-lg">
@@ -34,10 +36,13 @@ export default function BlogsSection() {
               </div>
             </div>
           ))}
-        </div>
-        <div className="grid place-content-center mt-8">
-          <Button size="lg" className="bg-scoutGreen1 text-lg hover:bg-green-700 hover:scale-110 transition duration-300">
-            View More Blogs & Articles
+        </div> */}
+        <Listings />
+        <div className="grid place-content-center ">
+          <Button asChild size="lg" className="bg-scoutGreen1 text-lg hover:bg-green-700 hover:scale-110 transition duration-300">
+            <Link href={`/blogs-and-articles`}>
+              View More Blogs & Articles
+            </Link>
           </Button>
         </div>
       </section>
