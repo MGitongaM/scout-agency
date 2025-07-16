@@ -98,11 +98,45 @@ export const navigationEntries = [
       },
     ],
   },
+  // {
+  //   id: 3,
+  //   title: "Our Work",
+  //   link: "",
+  //   entries: [
+  //     {
+  //       id: 1,
+  //       heading: "Zurura Initiative",
+  //       link: "/zurura-initiative",
+  //     },
+  //     {
+  //       id: 2,
+  //       heading: "Accessible Tourism in Kenya",
+  //       link: "/#",
+  //     },
+  //     {
+  //       id: 3,
+  //       heading: "Research & Training",
+  //       link: "/#",
+  //     },
+  //   ],
+  // },
 
   {
-    id: 3,
+    id: 4,
     title: "Get Involved",
     link: "/get-involved",
+    entries: [
+      {
+        id: 1,
+        heading: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Blogs & Articles",
+    link: "/blogs-and-articles",
     entries: [
       {
         id: 1,
