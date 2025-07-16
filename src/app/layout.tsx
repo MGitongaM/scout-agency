@@ -16,7 +16,7 @@ const url=getCldOgImageUrl({src:"home-page-og_dpe1cb"})
 
 export const metadata: Metadata = {
   title: "Scout Group Agency",
-  description: "Our misiion is promotes inclusive tourism, ensuring travel is accessible to all. ",
+  description: "Our mission is to promotes inclusive tourism, ensuring travel is accessible to all. ",
   openGraph:{
     images:[
       {
