@@ -21,9 +21,9 @@ export default function Listings() {
                 className="object-cover w-full h-full rounded-lg"
               />
             </div>
-            <div className="space-y-4 px-4 py-6">
+            <div className="leading-7 space-y-4 px-4 py-6">
                 <p className="font-semibold ">{reading.title}</p>
-              <p className="c">{reading.excerpt}</p>
+              <p className="line-clamp-3">{reading.excerpt}</p>
             </div>
               </Link>
           </div>

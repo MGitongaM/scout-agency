@@ -47,18 +47,13 @@ Making our tourism offerings more accessible to people with disabilities is not 
 Thank you for considering our proposal. We look forward to the opportunity to discuss this project in more detail with you.
 
 ---
-
-**Scout Group Agency**  
-3 Riverside Drive, Chiromo Road  
-Nairobi, Kenya  
-+254 701711737  
-[http://www.scoutgroupagency.com/](http://www.scoutgroupagency.com/)`,
+`,
   },
   {
     id: 2,
     title:
       "Research on Training & Employment Opportunities for Persons with Disabilities in Kenya's Hospitality Sector",
-    slug: "research-on-training-&-employment-opportunities-for-persons-with-disabilities-in-kenyas-hospitality-sector",
+    slug: "research-on-training-and-employment-opportunities-for-persons-with-disabilities-in-kenyas-hospitality-sector",
     excerpt:
       "The hospitality industry is among Kenya's strongest drivers of employment and economic growth. However, people with disabilities are still largely underrepresented in the sector's workforce. According to the World Health Organization, employment rates for disabled persons",
     author: "Scout Group Agency",
@@ -94,8 +89,8 @@ Expanding training and employment opportunities in hospitality for people with d
   {
     id: 3,
     title:
-      "Recommedation for Research on Digital Accessibility & Assistive Technology Adoption in Kenyan Tourism",
-    slug: "recommedation-for-research-on-digital-accessibility-&-assistive-technology-adoption-in-kenyan-tourism",
+      "Recommendation for Research on Digital Accessibility & Assistive Technology Adoption in Kenyan Tourism",
+    slug: "recommendation-for-research-on-digital-accessibility-and-assistive-technology-adoption-in-kenyan-tourism",
     excerpt:
       "As Kenya's tourism sector continues its digital transformation, the accessibility of websites, mobile apps, booking platforms, and digital guides has become a critical issue. Many international and local travelers with disabilities rely on assistive technologies",
     author: "Scout Group Agency",
