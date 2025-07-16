@@ -9,7 +9,7 @@ export default function Listings() {
         {blogsAndArticles.map((reading) => (
             <div
             key={reading.id}
-            className="w-full md:w-3/12 lg:w-[28rem] rounded-lg shadow-lg hover:scale-105 transition duration-300"
+            className="w-full md:w-[20rem] lg:w-[24rem] h-full md:min-h-[32rem] lg:h-full rounded-lg shadow-lg hover:scale-105 transition duration-300"
           >
             <Link href={`blogs-and-articles/${reading.slug}`}>
             <div className="h-64  bg-slate-400 rounded-t-lg">
